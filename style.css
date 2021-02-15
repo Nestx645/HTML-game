@@ -1,0 +1,84 @@
+.invisible {
+    display: none;
+}
+.visible {
+    display: inline-block;
+}
+.functions {
+    text-decoration: underline #E8302B;
+}
+div#lvl1 {
+    display: block;
+    background-color: white;
+}
+div.level:hover {
+    transition: all 2s;
+    display: block;
+    background-color: black;
+    color: white;
+}
+div.level:hover::after{
+    transition: all 2s;
+}
+div.level p, img{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    
+}
+h1.title_level {
+    margin-top: 7%;
+    text-decoration: underline #E8302B;
+	text-align: center;
+}
+.check {
+    text-decoration: underline rgb(87, 182, 87);
+    margin-top: 7%;
+	text-align: center;
+}
+p.text_level {
+    padding: 0.5%;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: bold;
+    border-left: solid 5px #2b67e8;
+}
+p.button_next {
+    margin-top: 5%;
+    margin-left: 90%;
+    border: solid 3px black;
+    width: 8%;
+    padding: 0.5%;
+    font-size: 120%;
+    color: white;
+    background-color: grey;
+}
+a.button_next {
+    text-decoration: none;
+    color: white;
+}
+button.button_lvl {
+    margin-top: 10%;
+    margin-left: 5%;
+    border-left: solid 10px #2b67e8;
+}
+p.button_come_back {
+    margin-top: 5%;
+    border: solid 3px black;
+    width: 6%;
+    padding: 0.5%;
+    font-size: 120%;
+    color: white;
+    background-color: rgb(161, 48, 48);
+}
+a.button_come_back {
+    font-size: 120%;
+    color: white;
+    background-color: rgb(161, 48, 48);
+    text-decoration: none;
+}
+a.code_secret {
+    color: white;
+    background-color: white;
+}
