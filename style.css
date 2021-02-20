@@ -1,3 +1,6 @@
+body {
+    background: linear-gradient(135deg, red, blue);
+}
 .invisible {
     display: none;
 }
@@ -7,27 +10,47 @@
 .functions {
     text-decoration: underline #E8302B;
 }
-div#lvl1 {
-    display: block;
-    background-color: white;
-}
-div.level:hover {
-    transition: all 2s;
-    display: block;
-    background-color: black;
+div#sommaire h1{
+    margin-top: 5%;
+    text-align: center;
     color: white;
+}
+div.level a {
+    text-decoration: none;
+    width: 7%;
+    padding-left: 2%;
+}
+div.level p.p_print{
+    margin-top: 3%;
+    padding-left: 1%;
+    width: 7%;
+    margin-left: 4%;
+    color: white;
+    font-size: 130%;
+}
+div#lvl1 p.p_print{
+    border-left: solid 3px green;
+}
+div#lvl2 p.p_print{
+    border-left: solid 3px yellow;
+}
+div#lvl3 p.p_print{
+    border-left: solid 3px orange;
+}
+div#lvl4 p.p_print{
+    border-left: solid 3px red;
+}
+div.level p.case {
+    border: solid 2px black;
+    width: 5%;
+    margin-left: 4%;
 }
 div.level:hover::after{
     transition: all 2s;
 }
-div.level p, img{
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    
-}
+
 h1.title_level {
-    margin-top: 7%;
+    margin-top: 3%;
     text-decoration: underline #E8302B;
 	text-align: center;
 }

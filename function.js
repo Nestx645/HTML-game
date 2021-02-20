@@ -33,3 +33,18 @@ function level_3(){
     }
     
 }
+function level_4(){
+    reponse = document.getElementById("prenom");
+    bonne_reponse = reponse.value
+    if (bonne_reponse=="ton prénom"){
+        zone_a_cacher = document.getElementById("button_come_back_lvl4");
+        zone_a_cacher.className="invisible";
+        button = document.getElementById("button_next_lvl4");
+        button.className="button_next";
+        title = document.getElementById("title_level_lvl4");
+        title.className="check";
+    } else {
+        alert("Impossible");
+    }
+    
+}

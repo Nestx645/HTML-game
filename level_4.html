@@ -6,9 +6,14 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="function.js"></script>
     </head>
-    <body>
-        <h1 class="title_level" id="title_level_lvl1">Veuillez <a onclick="cacher_lvl1()" class="functions" id="function">cacher</a> le texte ci dessous : </h1>
-        <p class="text_level" id="text_level1">Je suis aller chez ma grand mère mais je ne l'ai pas vu</p>
-        <p class="invisible" class="button_next"  id="button_next_lvl1" > <a href="level_2.html" class="button_next">Suivant --></a></p>
+    <body id="body_lvl4">
+        <h1 class="title_level" id="title_level_lvl4">Ecris ton prénom ci dessous : </h1>
+        <form name="lvl4" action="index.html" method="post" id="form"></form>
+            <label for="name"><h3>Ecris ton prénom : </h3></label>
+            <input type="text" name="name" id="prenom" required title= "Ecris ton prénom "/>
+            <input type="button" class="validation" name="Validation" onclick="level_4()" value="Validation"/>
+        </form>
+        <p class="button_come_back" id="button_come_back_lvl4"><a href="level_3.html" class="button_come_back">Retour</a></p>
+        <p class="invisible" class="button_next"  id="button_next_lvl4" > <a href="index.html" class="button_next">Suivant --></a></p>
     </body>
 </html>
