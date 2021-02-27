@@ -1,3 +1,13 @@
+/*
+
+===          ===     =============   ===========        ==========    ====      |
+   ===    ===              |         \                  |             |   \     |
+      ====         X       |    T     \ ========  S     ========   E  |    \    |   N
+   ===    ===              |                   /        |             |     \   |
+===          ===           |         =========/   *     ==========    |      ====
+
+2021
+*/
 function cacher_lvl1() {
     zone_a_cacher = document.getElementById("text_level1");
     zone_a_cacher.className="invisible";
